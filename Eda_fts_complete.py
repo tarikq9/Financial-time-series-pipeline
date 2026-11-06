@@ -17,7 +17,7 @@ warnings.filterwarnings('ignore')
 pd.options.display.float_format='{:.4f}'.format
 
 # Choose commodity or financial instrument
-column=1
+column=2
 
 if column==1:
     print('\n---SPOT BRASS ANALYSIS---\n')
