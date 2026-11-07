@@ -1,5 +1,6 @@
-The following work, is an automated tool used to analize financial time series,
- By transforming raw prices in logPt then logRt and studying it's statistical properties the script chooses (according to bic) the optimal stochastic processes to represents:
+The following work, is an automated tool used to analize financial time series.
+ 
+ By transforming raw prices in logPt then logRt and studying it's statistical properties, the script chooses (according to bic) the optimal stochastic processes to represents:
 
  The mean equation: choosing from AR, MA , ARMA, ARIMA (order from 0 to 2) 
 and the volatility equation: GARCH, EGARCH, APARCH, FIGARCH (order from 0 to 2)
