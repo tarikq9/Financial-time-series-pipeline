@@ -9,8 +9,6 @@ Distributions tested are: normal, studentst and ged.
  Finally a 3x3 Plot is created, showing visually the statistical properties of the time series.
    (work example on copper futures)
 
-<img width="1706" height="852" alt="Copper comdty analysis" src="https://github.com/user-attachments/assets/02e9cc43-9f7f-4173-989a-e598cfdfb156" />
-
 <details>
 <summary>Click here to see python terminal output</summary>
 
@@ -141,3 +139,5 @@ GARCH(1,0,1) t
 ```
 
 </details>
+
+<img width="1706" height="852" alt="Copper comdty analysis" src="https://github.com/user-attachments/assets/02e9cc43-9f7f-4173-989a-e598cfdfb156" />
