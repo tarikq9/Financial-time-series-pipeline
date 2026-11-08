@@ -1,13 +1,13 @@
-The following work, is an automated tool used to analize financial time series.
+The following work is an automated tool used to analyze financial time series.
  
- By transforming raw prices in logPt then logRt and studying it's statistical properties, the script chooses (according to bic) the optimal stochastic processes to represents:
+ By transforming raw prices into logPt, then logRt and studying its statistical properties, the script chooses (according to BIC) the optimal stochastic processes to represent:
 
- The mean equation: choosing from AR, MA , ARMA, ARIMA (order from 0 to 2) 
+ the mean equation: choosing from AR, MA , ARMA, ARIMA (order from 0 to 2) 
 and the volatility equation: GARCH, EGARCH, APARCH, FIGARCH (order from 0 to 2)
 
-Distributions tested are: normal, studentst and ged.
- Finally a 3x3 Plot is created, showing visually the statistical properties of the time series.
-   (work example on copper futures)
+Distributions tested are: normal, student-t and ged.
+ Finally a 3x3 plot is created, showing visually the statistical properties of the time series.
+   (here applied to copper futures)
 
 <details>
 <summary>Click here to see python terminal output</summary>
